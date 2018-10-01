@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="class(failed)">
+    <classes>
+      <class name="com.restapi.TestScripts.CreateNewBugTest">
+        <methods>
+          <include name="createJiraSession"/>
+          <include name="initializeProperties"/>
+        </methods>
+      </class> <!-- com.restapi.TestScripts.CreateNewBugTest -->
+      <class name="com.restapi.TestScripts.DeletingCommentTest">
+        <methods>
+          <include name="initializeProperties"/>
+          <include name="deletecomment"/>
+        </methods>
+      </class> <!-- com.restapi.TestScripts.DeletingCommentTest -->
+      <class name="com.restapi.TestScripts.AddingCommentToBugTest">
+        <methods>
+          <include name="Addingcommenttothebug"/>
+          <include name="initializeProperties"/>
+        </methods>
+      </class> <!-- com.restapi.TestScripts.AddingCommentToBugTest -->
+    </classes>
+  </test> <!-- class(failed) -->
+</suite> <!-- Failed suite [Suite] -->

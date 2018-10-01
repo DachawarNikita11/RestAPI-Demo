@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>JIRA_RestAPI</groupId>
+  <artifactId>JIRA_RestAPI</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>JIRA_RestAPI</name>
+  <url>http://maven.apache.org</url>
+<build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+     <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.13.0</version>
+</dependency>
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.1.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>com.networknt</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>0.1.20</version>
+</dependency>
+
+<dependency>
+    <groupId>io.gatling</groupId>
+    <artifactId>jsonpath_2.12</artifactId>
+    <version>0.6.11</version>
+</dependency>
+
+<dependency>
+    <groupId>com.jayway.restassured</groupId>
+    <artifactId>dist-xml-path</artifactId>
+    <version>2.2.0</version>
+    <type>pom</type>
+</dependency>
+
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>scala-support</artifactId>
+    <version>3.1.0</version>
+</dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4" name="class">
+    <classes>
+      <class name="com.restapi.TestScripts.CreateJiraSessionTest"/>
+      <class name="com.restapi.TestScripts.CreateNewBugTest"/>
+      <class name="com.restapi.TestScripts.AddingCommentToBugTest"/>
+      <class name="com.restapi.TestScripts.DeletingCommentTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
